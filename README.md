@@ -1,4 +1,2 @@
-# BlenderPython
-Learn Python scripting with in the bledner
-
-Lets start fresh
+# Blender Python
+Learn Python API scripting in Blender.
