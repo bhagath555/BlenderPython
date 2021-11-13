@@ -4,7 +4,7 @@ from bpy.types import Panel, Operator
 
 
 class del_material_op(Operator):
-    bl_idname = "del.unsuedmats"
+    bl_idname = "del.unsued_mats"
     bl_label = "Deletes unused materials from the blend file."
 
     """
@@ -26,7 +26,7 @@ class Mographs_PT(Panel):
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
     bl_category = "MoGraphs"
-    bl_label = "Del materials"
+    bl_label = "Materials"
 
     def draw(self, context):
       layout = self.layout
