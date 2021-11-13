@@ -31,8 +31,8 @@ class Mographs_PT(Panel):
     def draw(self, context):
       layout = self.layout
       row = layout.row()
-      row.label(text="Del unused mats:", icon = "MATERIAL")
-      row.operator(del_material_op.bl_idname, text="Del mats")  
+      row.label(text="Unused mats:", icon = "MATERIAL")
+      row.operator(del_material_op.bl_idname, text="Del")  
     
 def register():
     bpy.utils.register_class(del_material_op)
